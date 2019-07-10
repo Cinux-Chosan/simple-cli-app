@@ -13,6 +13,7 @@ import App from '@pages/app/'
 
 export default {
   path: '/',
+  type: 'route',
   component: App,
   routes: []
 }
