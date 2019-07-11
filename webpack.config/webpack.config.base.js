@@ -25,6 +25,7 @@ module.exports = {
         extensions: ['.js', '.jsx', '.json'],
         alias: {
             "@components": path.join(rootDir, "./src/components/"),
+            "@public": path.join(rootDir, './src/public'),
             "@pages": path.join(rootDir, './src/pages'),
         }
     },
