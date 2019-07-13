@@ -51,14 +51,13 @@ function mapRoutes(routes, parentPath = '/') {
 
       // React-Router#Route
       default: {
-        Component = Loadable(Component)
         routeComponent = (
           <Route
             key={index}
             path={fullPath}
             {...rest}
             render={props => (
-              <Component {...props} yield={mapRoutes(subRoutes, fullPath)} />
+              <Loadable component={Component} {...props} yield={mapRoutes(subRoutes, fullPath)} />
             )}
           />
         )
