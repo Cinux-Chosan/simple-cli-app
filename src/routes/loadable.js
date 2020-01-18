@@ -1,7 +1,7 @@
 /*
  * Author: zhangjianjun (179817004@qq.com)
  * Create Time: Wednesday, 10th July 2019 5:28:37 pm
- * Last Modified: Saturday, 13th July 2019 5:29:59 pm
+ * Last Modified: Saturday, 18th January 2020 6:22:36 pm
  * 
  * Describe: Loadabe for React class component，React function component and babel dynamic import component
  */
